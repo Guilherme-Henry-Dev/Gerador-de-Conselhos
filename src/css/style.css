@@ -1,0 +1,49 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 450px;
+}
+
+.card .conselho-id{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.card .conselho-descricao{
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.card picture img{
+    width: 100%;
+}
+
+.card .troca-conselho{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    margin-left: 175px;
+    transform: translateY(80%);
+    cursor: pointer;
+}

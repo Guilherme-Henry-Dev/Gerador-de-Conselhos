@@ -1,23 +1,22 @@
-/* Responsividade para mobile (até 414px) */
 @media (max-width: 425px) {
     .card {
-        max-width: 90%; /* deixa o card mais fluido */
+        max-width: 90%;
         padding: 15px;
     }
 
-    .card .conselho-descricao {
-        font-size: 20px; /* menor fonte pra caber melhor */
+    .card .advice-descriptiono {
+        font-size: 20px;
         padding: 15px;
     }
 
     .card picture img {
         max-width: 100%;
-        height: auto; /* mantém a proporção */
+        height: auto;
     }
 
-    .card .troca-conselho {
-        margin: 0 auto; /* centraliza o botão */
+    .card .advice-update {
+        margin: 0 auto;
         display: block;
-        transform: translateY(50%); /* ajuste suave de posição */
+        transform: translateY(50%);
     }
 }

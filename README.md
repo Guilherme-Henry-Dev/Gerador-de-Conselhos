@@ -2,36 +2,58 @@
 
 ## 📋 Descrição
 
-Este projeto é uma interface de cartão de conselhos, desenvolvida com foco em **HTML** e **CSS**. Ele simula a exibição de um conselho dentro de um card centralizado e estilizado, com um botão para gerar novas mensagens.
+Este projeto é uma interface de cartão de conselhos, desenvolvida com **HTML**, **CSS** e **JavaScript**.  
+Agora, além do layout estilizado, o projeto consome conselhos reais da [Advice Slip API](https://api.adviceslip.com/) e traduz automaticamente os textos para **português** com a **API MyMemory Translate**.
 
-<blockquote style="font-size: 19px; background-color: #000; border-left: 5px solid #f1c40f; padding: 1em;">
-  ⚠️ <strong>Projeto em andamento:</strong><br>
-  Futuras versões incluirão <strong>JavaScript</strong> para tornar o botão interativo e buscar conselhos reais via <strong>API</strong>.
+<blockquote style="font-size: 19px; background-color: #000; border-left: 5px solid #2ecc71; padding: 1em;">
+  ✅ <strong>Status:</strong><br>
+  Projeto funcional: já é possível gerar conselhos dinâmicos em português com apenas um clique!
 </blockquote>
-
 
 ---
 
-
 ## 🔧 Tecnologias Utilizadas
 
-- HTML5  
-- CSS3  
-- *(Futuramente)* JavaScript + Fetch API
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **Fetch API**  
+- **Advice Slip API** → fornece conselhos aleatórios (em inglês)  
+- **MyMemory Translate API** → traduz os conselhos automaticamente para PT-BR  
 
 ---
 
 ## 📁 Estrutura de Pastas
-
-![Preview do Projeto](./src/images/estrutura.jpg)
-
+```bash
+📁 PROJETO-GERADOR-DE-CONSELHOS
+ ┣ 📂 src
+ ┃ ┣ 📂 css
+ ┃ ┃ ┣ 📜 reset.css         # Reset de estilos
+ ┃ ┃ ┣ 📜 responsive.css    # Estilos para responsividade
+ ┃ ┃ ┗ 📜 style.css         # Estilo principal do Card
+ ┃ ┃ 
+ ┃ ┣ 📂 img
+ ┃ ┃ ┣ 🖼️ app-conselhos.jpg     
+ ┃ ┃ ┣ 🖼️ estrutura.jpg
+ ┃ ┃ ┣ 🖼️ favicon-32x32.png
+ ┃ ┃ ┣ 🎞️ gerador-de-conselhos.gif  
+ ┃ ┃ ┣ 🖼️ icon-dice.svg
+ ┃ ┃ ┣ 🖼️ pattern-divider-desktop.svg
+ ┃ ┃ ┗ 🖼️ pattern-divider-mobile.png
+ ┃ ┗ 📂 js
+ ┃   ┗ 📜 index.js          # Lógica da geração de conselhos
+ ┣ 📜 index.html            # Estrutura da página
+ ┗ 📜 README.md             # Documentação
+```
 ---
 
 ## 🎯 Objetivos do Projeto
 
 - Praticar estruturação de componentes com HTML.
 - Estilizar interfaces responsivas e centradas com CSS.
-- Planejar futura integração com JavaScript e API pública.
+- Integrar JavaScript para manipular DOM e consumir APIs externas.
+- Utilizar a Advice Slip API para gerar conselhos dinâmicos.
+- Traduzir automaticamente os conselhos para português.
 - Trabalhar tipografia e espaçamento para foco em leitura.
 
 ---
@@ -42,24 +64,25 @@ Este projeto é uma interface de cartão de conselhos, desenvolvida com foco em 
 
 ---
 
+## 📦 Funcionalidades
 
-## 📦 Funcionalidades Planejadas
-
-- [x] Interface de card estilizado
-- [x] Botão visual com ícone interativo
-- [ ] Geração dinâmica de conselhos com JS
-- [ ] Integração com a API [Advice Slip JSON API](https://api.adviceslip.com/)
-- [ ] Efeitos de loading/transição ao trocar o conteúdo
+- [x] Layout **totalmente responsivo** 
+- [x] Interface de card estilizado  
+- [x] Botão visual com ícone interativo  
+- [x] Geração dinâmica de conselhos com JavaScript  
+- [x] Integração com a API [Advice Slip](https://api.adviceslip.com/)  
+- [x] Tradução automática para PT-BR com [MyMemory Translate](https://mymemory.translated.net/doc/spec.php)  
+- [ ] Efeitos de loading/transição ao trocar o conteúdo  
 
 ---
 
 ## 📌 Status do Projeto
-- 🔧 Em desenvolvimento, atualmente com foco no layout estático.
-- 🔜 Integração futura com JavaScript para geração de conselhos dinâmicos.
+- 🚀 **Em funcionamento**: já é possível gerar conselhos reais em português.  
+- 🔜 Melhorias futuras: otimização do design responsivo e animações de transição entre conselhos.  
 
 ---
 
 ## 🙋‍♂️ Autor
-- Feito com 💻 por Guilherme Henry
-- 📍 Belo Horizonte
-- 📧 guilherme.henrydesigner@gmail.com
+- Feito com 💻 por **Guilherme Henry**  
+- 📍 Belo Horizonte  
+- 📧 guilherme.henrydesigner@gmail.com  

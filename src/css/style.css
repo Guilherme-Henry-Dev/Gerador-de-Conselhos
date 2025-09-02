@@ -33,8 +33,17 @@ body{
     color: hsl(193, 38%, 86%);
 }
 
+.card picture {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .card picture img{
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .card .troca-conselho{
